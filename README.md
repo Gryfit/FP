@@ -14,7 +14,7 @@ on Linux it is as simple as running a command in terminal:
 npm install -g elm
 ```
 
-We used a commands:
+We used a command:
 
 ```
 elm reactor
