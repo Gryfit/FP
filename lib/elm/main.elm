@@ -17,6 +17,12 @@ main =
         , view = view
         , subscriptions = subscriptions
       }
+{-| As we won't need any keyboard/mouse input outside of special checkboxes and input fields we dont need subscriptions
+
+    If you would like to add a special keyboard input or mouse (for example effect when you hover over a field)
+    this part will be usefull.
+
+    -}
 
 subscriptions : Model -> Sub Msg
 subscriptions model = Sub.none
